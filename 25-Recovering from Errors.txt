@@ -1,0 +1,2 @@
+- changes in  error.tsx use reset.
+-show error message.

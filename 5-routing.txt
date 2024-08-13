@@ -1,0 +1,32 @@
+Routing 
+
+Next.js has a file system based routing mechanism.
+
+URL paths that users can access in the browser are defined by files and folders in your codebase.
+
+
+ue the command : npx create-next-app@latest routing-demo
+
+
+Routing Conventions
+
+All routes must be placed inside the app folders
+every file that corresponds to a route must be named page.js or page.tsx
+
+every folder corresponds to a path segment in the browser URL 
+
+
+File based Routing
+
+Scenario 1 : localhost:3000
+ create a new folder under src. named as app folder here we create a page.tsx file. .tsx is a extension.
+
+ npm run dev for running the page 
+
+
+ Scenario 2 : user render about page and another render profile page.
+              in app folder we have create another about folder here we create page.tsx file. eg: localhost:3000/about
+              and another folder profile create in the app folder and create a page.tsx file in the profile folder. eg: localhost:3000/profile
+              routes are associated with a file based on the containing folders name within the app folder.
+              localhost:3000/dashboard : page not found
+              

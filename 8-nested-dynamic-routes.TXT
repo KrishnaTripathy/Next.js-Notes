@@ -1,0 +1,7 @@
+Nested Dynamic Routes
+
+Scenario 5 : localhost:3000/products/1 : Products 1 details 
+             localhost:3000/products/1/reviews/1 : Review 1 for product 1
+             create review folder inside [productId] folder.
+             inside the review folder create [reviewId] folder.and inside [reviewId] create page.tsx file.
+             http://localhost:3000/products/1/reviews/500

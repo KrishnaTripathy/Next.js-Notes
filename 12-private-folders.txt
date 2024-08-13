@@ -1,0 +1,15 @@
+Private Folders
+
+A private Folders indicates that it is a private implementation detail and should not be considered by the routing system.
+the folder and all its subfolders are excluded from routing
+Prefix the folder name with an underscore
+
+inside the app folder create a _lib folder.
+_lib folder is a private folder.
+
+- for separating UI logic from routing logic
+- for consistently organizing internal files across a project
+- for sorting and grouping files in code editors.
+- and finally, for avoiding potential naming conflicts with future Next.js file conventions.
+- If you want to include an underscore in URL segments, you can prefix the folder name with "%5F", 
+which is the URL-encoded form of an underscore 

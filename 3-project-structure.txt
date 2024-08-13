@@ -1,0 +1,7 @@
+project structure 
+
+
+npm run dev > layout.tsx > page.tsx 
+
+nodemodules - dependencies 
+

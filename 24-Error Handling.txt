@@ -1,0 +1,36 @@
+Special Files 
+
+page.tsx
+layout.tsx
+template.tsx
+not-found.tsx
+loading.tsx
+error.tsx
+
+
+edit in page.tsx inside [reviewid] folder.
+
+npm run build 
+npm run start
+
+facing error, so we have created a error.tsx file inside [reviewid] folder.
+
+error.tsx
+
+- Automatically wrap a route segment and its nested children in a Route Error boundary.
+
+- create error UI tailored to specific segements using the file system hirarchy to adjust granularity.
+
+- Isolate errors to affected segments while keeping the rest of the application functional.
+
+- Add functionality to attempt to recover from an error without a full 
+page reload.
+
+Component Hierarchy
+
+layout.js
+template.js
+error.js
+loading.js
+not-found.js
+page.js

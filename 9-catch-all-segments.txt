@@ -1,0 +1,10 @@
+Catch-all segments
+
+Scenario 6 : localhost:3000/docs/feature1/concept1
+
+in app folder create new folder called docs.
+inside docs create spread operator folder called [...slug]
+inside this folder create page.tsx file. : http://localhost:3000/docs/feature1/concept1/example1
+http://localhost:3000/docs/routing/cath
+
+[[...slug]] create folder add page.tsx file add ?. optional symbol

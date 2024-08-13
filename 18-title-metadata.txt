@@ -1,0 +1,9 @@
+title Metadata
+
+The title fiels's primary pupose is to define the document title
+
+It can be either a string or an object.
+
+in layout.tsx use Metadata. and in the blog folder page.tsx use.: http://localhost:3000/blog
+
+when you have used absolute the template will not working.

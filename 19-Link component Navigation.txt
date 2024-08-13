@@ -1,0 +1,31 @@
+Link Component Navigation 
+
+File based routing
+
+we manually entered the URLs in the browser's address bar to navigate to the different routes.
+
+Users relay on UI elements like links to navigate.
+
+- Clicking on them or
+- through programmatic navigation after completing an action 
+
+UI Navigation :
+
+navigating from the home page to blog page .
+
+Link component Navigation :
+
+To enabale client-side navigation Next.js provides us with the Link component component.
+
+The `<Link>` component is a React component that extends the HTML `<a>` element, and
+it's the primary way to navigate between routes in Next.js.
+
+to use it , we need to import it from "next/link".
+
+impot link component in page.tsx.
+
+import the link component in products folder page.tsx file.
+
+Navigating the dynamic route :
+
+using replace we have to return to home page.

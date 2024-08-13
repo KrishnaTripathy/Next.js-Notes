@@ -1,0 +1,4 @@
+Active Links
+
+create a file layout.tsx inside auth folder.
+usePathname for navigate and style.

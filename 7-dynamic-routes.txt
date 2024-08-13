@@ -1,0 +1,16 @@
+Dynamic Routes 
+
+Scenario 4 : localhost:300/products : product 1 product  2 product 3
+            localhost:3000/products/id : product details
+            localhost:3000/products/1 : product 1 details 
+            create a product folder inside the app folder and create page.tsx file.
+
+            create a 1 folder inside products folder and create file page.tsx.
+
+            create a [productId] folder in products folder.inside the [productId] folder create page.tsx file.
+
+            create param object contains the route parameters as key value pairs in the case of product ID route we have a single parameters which is 
+            the product id 
+          
+            Dynamic routes are useful when implementing the list detailed pattern in any UI .
+

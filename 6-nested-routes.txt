@@ -1,0 +1,6 @@
+Nested routes 
+
+Scenario 3 : localhost:3000/blog and localhost:3000/blog/first  and localhost:3000/blog/second:3000/blog/second
+             create a blog folder with in app folder and create page.tsx file
+             create 2 folder inside blog folder first ans second folder.
+             in first folder create page.tsx file 

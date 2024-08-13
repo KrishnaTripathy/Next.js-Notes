@@ -1,0 +1,11 @@
+Handling Errors in Layouts
+
+-An error.tsx file will handle errors for all its nested  child segements
+
+- The error boundary does not catch errors thrown here because it's nested inside the layouts component.
+
+- copy the error.tsx from [reviewFolder] and paste it in [productId] folder.
+
+- copy the randomeFunction generation from [reviewId] folder page.tsx
+- and paste it from [productId] folder layout.tsx and edit it.
+- move error.tsx from [productId ] folder to product folder.

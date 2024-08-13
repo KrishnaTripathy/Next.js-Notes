@@ -1,0 +1,8 @@
+Handling Errors in Nested Routes
+
+- Errors bubble up to the closest parent error boundary.
+- An error.tsx file will cater to errors for all its nested child segemnts.
+- By positioning error.tsx files at different levels in the nested floders of a route, you
+can achieve a  more granular level of error handling.
+
+- move the error.tsx file form products folder.

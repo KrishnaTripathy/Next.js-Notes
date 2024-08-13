@@ -1,0 +1,5 @@
+Nested Layouts 
+
+layouts can be nested 
+inside the [productId] folder create layout.tsx file.
+children props will be replaced.

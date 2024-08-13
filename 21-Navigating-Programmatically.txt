@@ -1,0 +1,10 @@
+Navigating Programmatically 
+
+specifically you are order an item from amazon and its shows place order 
+and after that it redirect to /confirm page section successfully placed.
+
+when we place the place order button it will navigate to home page.
+
+create a folder order-product folder inside app folder and inside order-product folder create page.tsx file.
+useRouter only work on client component.
+so we have used "use client"; in this page.

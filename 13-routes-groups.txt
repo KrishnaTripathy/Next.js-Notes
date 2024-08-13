@@ -1,0 +1,16 @@
+Route Groups
+
+Allows us to logically group our routes and project files without affecting the URL path structure.
+let's implement authentication routes
+
+- Register
+- Login 
+- Forgot password
+
+create auth folder inside auth folder add these 3 folders with page.tsx
+
+http://localhost:3000/auth/login
+
+(auth) folder this inform next.js that auth folder should be treated as a route group .
+its name will be omitted from the URL path.
+http://localhost:3000/login

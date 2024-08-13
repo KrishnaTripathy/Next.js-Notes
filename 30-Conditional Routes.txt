@@ -1,0 +1,4 @@
+Conditional Routes
+
+- In the complex-dashboard folder create @login folder within the folder create page.tsx file.
+- update in layput.tsx which is in complex-dashboard folder.

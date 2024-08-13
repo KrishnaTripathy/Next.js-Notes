@@ -1,0 +1,9 @@
+File Colocation 
+
+create dashboard folder inside app folder and inside dashboard folder create line-chart.tsx
+http://localhost:3000/dashboard : showing undefined because the dashboard route isn't publicly accessible until a page.tsx file is defined.
+moreover only the route becomes publicly accessible only the content returned by page.
+Tsx is sent to the client the content returned must be a default exported react component.
+so if we define react component page.tsx function barChart without exporting it as the default , on 
+revisiting the browser we can see the 404 page will no longer be displayed instead we encounter an error the
+default export is not a react component in page /dashboard .

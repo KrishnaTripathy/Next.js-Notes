@@ -1,0 +1,19 @@
+Layouts
+
+A page is UI  that is unique to a route 
+A layout is UI that is shared between multiple pages in the app
+e.g. Header , content , footer.
+
+How to Create Layouts
+you can define a layout by default exporting a React component from a layout.js or layout.tsx file.
+That component should accept a children prop that will be populated with a child page during rendering.
+
+layout.tsx is the top-most layout or root layout is a mandatory layout for every nextjs.
+layout.tsx file automatically generated if you deleted the file .
+
+the page.tsx will replace this children prop when the layout is rendered in the browser.
+the children prop here represents our  home component defined in page.tsx. which contains the H1 welcome home.
+http://localhost:3000/login
+
+
+
